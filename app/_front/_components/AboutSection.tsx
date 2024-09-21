@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-
+import AboutImages from '@/app/(data)/AboutImages'
 function AboutSection() {
   return (
     <div>
@@ -9,9 +9,9 @@ function AboutSection() {
                 <div className="w-full justify-start items-center gap-12 grid lg:grid-cols-2 grid-cols-1">
                 <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
                     <div className="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
-                    <Image className="rounded-xl object-cover" src={'/front-assets/images/about-myaibotix-04.png'} alt="MyAIBotix image" width={400} height={300} />
+                    <Image className="rounded-xl object-cover" src={AboutImages.image_1} alt="MyAIBotix image" width={400} height={300} />
                     </div>
-                    <Image className="sm:ml-0 ml-auto rounded-xl object-cover" src={'/front-assets/images/about-myaibotix-02.png'} alt="MyAIBotix image" width={400} height={300} />
+                    <Image className="sm:ml-0 ml-auto rounded-xl object-cover" src={AboutImages.image_2} alt="MyAIBotix image" width={400} height={300} />
                 </div>
                 
                 <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
