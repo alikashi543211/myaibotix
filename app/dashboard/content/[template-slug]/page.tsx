@@ -8,7 +8,7 @@ import { TEMPLATE } from '../../_components/TemplateListSection'
 import { ArrowLeft } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
-import { chatSession } from '@/utils/AIModel'
+import { chatSession } from '@/utils/AiModel'
 
 interface PROPS{
     params:{
