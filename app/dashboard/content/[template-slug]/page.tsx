@@ -25,7 +25,7 @@ function CreateNewContent(props: PROPS) {
     const GenerateAIContent = async (formData: any) => {
         setLoading(true);
         const selectedPrompt = selectedTemplate?.aiPrompt;
-        const FinalAIPrompt = JSON.stringify(formData) + ', ' + selectedPrompt;
+        const FinalAIPrompt = JSON.stringify(formData);
         const result = await chatSession.sendMessage(FinalAIPrompt);
         console.log(result?.response.text());
         setAiOutput(result?.response.text());
