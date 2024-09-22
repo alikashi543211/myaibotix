@@ -24,4 +24,14 @@ export default [
       title: 'Desclaimer',
       link: "/desclaimer",
     },
+    {
+      id: 6,
+      title: 'Login',
+      link: "/login",
+    },
+    {
+      id: 7,
+      title: 'Register',
+      link: "/register",
+    },
   ];
